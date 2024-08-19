@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'MyFont', sans-serif;
+    color: aliceblue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'MyFont', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
