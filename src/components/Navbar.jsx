@@ -18,7 +18,7 @@ function Navbar({section, handleSetSection}) {
   }, [section]);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black p-6 z-50">
+    <nav className="fixed top-0 left-0 w-full bg-black px-6 py-3 z-50 ">
       <div className="flex justify-end lg:justify-center items-center">
         {/*<div className="text-white text-2xl font-extrabold"></div>*/}
         <div className="lg:hidden z-50">
@@ -30,7 +30,7 @@ function Navbar({section, handleSetSection}) {
           </button>
         </div>
         <ul
-          className={`lg:flex lg:items-center lg:space-x-6 lg:static lg:bg-transparent fixed inset-0 lg:inset-auto bg-black w-full lg:w-auto h-full lg:h-auto pt-16 lg:pt-0 transition-transform duration-300 ease-in-out transform ${
+          className={`lg:flex lg:items-center lg:space-x-6 lg:static lg:bg-transparent fixed inset-0 lg:inset-auto bg-black w-full lg:w-auto h-auto pt-16 lg:pt-0 transition-transform duration-300 ease-in-out transform ${
             isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
           } lg:translate-y-0`}
         >

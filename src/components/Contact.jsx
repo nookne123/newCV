@@ -174,7 +174,7 @@ function Contact({handleSetSection}) {
           </div>
         </div>
       </div>
-      <div className="text-gray-600 gap-2 my-[80px] flex justify-center w-full">
+      <div className="text-gray-600 text-[10px] sm:text-[16px] gap-2 my-[80px] flex justify-center w-full">
         😊 This may not be @ grand story of mine,but I give my all in everything ❤️ I do.
       </div>
     </section>
